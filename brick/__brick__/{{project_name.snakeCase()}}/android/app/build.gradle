@@ -83,17 +83,17 @@ android {
         production {
             dimension "default"
             applicationIdSuffix ""
-            manifestPlaceholders = [appName: "{{project_name.titleCase()}}"]
+            manifestPlaceholders = [appName: "{{app_name.titleCase()}}"]
         }
         {{staging_name_full}} {
             dimension "default"
             applicationIdSuffix ".{{staging_name_short}}"
-            manifestPlaceholders = [appName: "[{{staging_name_short.upperCase()}}] {{project_name.titleCase()}}"]
+            manifestPlaceholders = [appName: "[{{staging_name_short.upperCase()}}] {{app_name.titleCase()}}"]
         }
         development {
             dimension "default"
             applicationIdSuffix ".dev"
-            manifestPlaceholders = [appName: "[DEV] {{project_name.titleCase()}}"]
+            manifestPlaceholders = [appName: "[DEV] {{app_name.titleCase()}}"]
         }
     }
 

@@ -1,4 +1,4 @@
-# {{project_name.titleCase()}}
+# {{app_name.titleCase()}}
 
 ![coverage][coverage_badge]
 [![style: very good analysis][very_good_analysis_badge]][very_good_analysis_link]
@@ -31,7 +31,7 @@ $ flutter run --flavor {{staging_name_full}} --target lib/main_{{staging_name_fu
 $ flutter run --flavor production --target lib/main_production.dart
 ```
 
-_\*{{project_name.titleCase()}} works on iOS, Android, Web, and Windows._
+_\*{{app_name.titleCase()}} works on iOS, Android, Web, and Windows._
 
 ---
 

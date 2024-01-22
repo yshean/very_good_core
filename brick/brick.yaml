@@ -17,9 +17,14 @@ vars:
     description: The organization name
     default: com.example
     prompt: What is the organization name?
+  app_name:
+    type: string
+    description: The application name
+    default: My App
+    prompt: What is the application name?
   application_id:
     type: string
-    description: The application id on Android, Bundle ID on iOS and company name on Windows. If omitted value will be formed by org_name + . + project_name.
+    description: The application id on Android, Bundle ID on iOS and company name on Windows. It should include the org_name as a prefix.
     prompt: What is the application id?
   description:
     type: string
