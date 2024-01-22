@@ -85,7 +85,7 @@ android {
             applicationIdSuffix ""
             manifestPlaceholders = [appName: "{{project_name.titleCase()}}"]
         }
-        staging {
+        {{staging_name_full}} {
             dimension "default"
             applicationIdSuffix ".{{staging_name_short}}"
             manifestPlaceholders = [appName: "[{{staging_name_short.upperCase()}}] {{project_name.titleCase()}}"]

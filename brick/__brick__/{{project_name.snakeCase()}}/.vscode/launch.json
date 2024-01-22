@@ -17,11 +17,11 @@
       ]
     },
     {
-      "name": "Launch staging",
+      "name": "Launch {{staging_name_full}}",
       "request": "launch",
       "type": "dart",
-      "program": "lib/main_staging.dart",
-      "args": ["--flavor", "staging", "--target", "lib/main_staging.dart"]
+      "program": "lib/main_{{staging_name_full}}.dart",
+      "args": ["--flavor", "{{staging_name_full}}", "--target", "lib/main_{{staging_name_full}}.dart"]
     },
     {
       "name": "Launch production",
