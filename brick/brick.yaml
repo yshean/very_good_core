@@ -26,3 +26,13 @@ vars:
     description: A short project description
     default: A Very Good App
     prompt: What is the project description?
+  staging_name_full:
+    type: string
+    description: The full name for the staging environment
+    default: staging
+    prompt: What is the full name for the staging environment? The default is staging.
+  staging_name_short:
+    type: string
+    description: A short name for the staging environment
+    default: stg
+    prompt: What is the short name for the staging environment? The default is stg.
